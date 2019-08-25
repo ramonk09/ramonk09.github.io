@@ -1,0 +1,123 @@
+.menu {
+    width: 100%;
+    background:rgb(77, 125, 212);
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.menu li {
+    display: inline-block;
+   
+}
+
+ .infoHijo {
+    list-style: none;
+}
+
+a {
+    color: aliceblue;
+}
+
+.menu li a {
+    padding: 10px 20px;
+    display: inline-block;
+    
+}
+
+body {
+    background:whitesmoke;
+    align-items: center;
+    text-align: center;
+}
+a:hover{
+    background: rgb(161, 231, 236);
+}
+a:active{
+    font-size: 16px;
+}
+
+.foto {
+    width:100%;
+    margin: center;
+    
+}
+
+img {
+    width: 20em;
+    margin:auto;
+    display: block;
+    margin-bottom: 1%;
+    border-radius: 50%
+    
+
+}
+
+.info {
+    width:100%;
+    background: rgb(77, 125, 212);
+    color: black;
+    
+   
+}
+
+.infoHijo{
+   width: 20em;
+   position: relative;
+   left:38%;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+.BACayey{
+    width: 100%;
+    background:  rgb(77, 125, 212);
+    color: black;
+    display: block;
+}
+section p {
+    font-size: 20px;
+
+}
+
+.BACayey h2 p {
+
+    margin: 200px;
+    padding: auto;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+   
+}
+
+.BSPupr{
+    width: 100%;
+    background:  rgb(77, 125, 212);
+    color: black;
+    display: block;
+}
+.BSPupr h2 p .FotoPUPR{
+
+    margin: 200px;
+    padding: auto;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    
+}
+.workExp{
+    width: 100%;
+    background:  rgb(77, 125, 212);
+    color: black;
+    display: block;
+    
+    padding: 10px 20px;
+    list-style: none;
+}
+
