@@ -26,6 +26,8 @@ a {
 
 body {
     background: gray;
+    align-items: center;
+    text-align: center;
 }
 a:hover{
     background: rgb(61, 61, 61);
