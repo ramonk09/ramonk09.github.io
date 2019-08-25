@@ -21,45 +21,96 @@ a {
 .menu li a {
     padding: 10px 20px;
     display: inline-block;
+    
 }
 
 body {
     background: gray;
 }
-
+a:hover{
+    background: rgb(61, 61, 61);
+}
 a:active{
     font-size: 16px;
 }
 
 .foto {
-    width: 100%;
+    width:100%;
+    margin: center;
+    
 }
 
 img {
-    width: 20%;
+    width: 20em;
     margin:auto;
     display: block;
     margin-bottom: 1%;
+    
 
 }
 
 .info {
-    width: 100%;
-    display: block;  
+    width:100%;
     background: black;
-    display: inline-block;
-   
     color: white;
+    
+   
 }
 
 .infoHijo{
-   width: 100%;
- margin-left: 38%;
- font-size: 14px;
-
+   width: 20em;
+   position: relative;
+   left:38%;
 }
 
-p {
+footer p {
     text-align: center;
     margin: 0;
 }
+
+.BACayey{
+    width: 100%;
+    background:  black;
+    color: aliceblue;
+    display: block;
+}
+section p {
+    font-size: 20px;
+
+}
+
+.BACayey h2 p {
+
+    margin: 200px;
+    padding: auto;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+   
+}
+
+.BSPupr{
+    width: 100%;
+    background:  black;
+    color: aliceblue;
+    display: block;
+}
+.BSPupr h2 p .FotoPUPR{
+
+    margin: 200px;
+    padding: auto;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    
+}
+.workExp{
+    width: 100%;
+    background:  black;
+    color: aliceblue;
+    display: block;
+    border: coral;
+    padding: 10px 20px;
+}
+
+ 
