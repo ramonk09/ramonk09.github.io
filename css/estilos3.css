@@ -55,7 +55,7 @@ img {
 .infoHijo{
    width: 100%;
  margin-left: 38%;
- font-size: 2em;
+ font-size-adjust: inherit;
 
 }
 
