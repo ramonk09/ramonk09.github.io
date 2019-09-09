@@ -23,5 +23,5 @@ function myFunction() {
     var z =parseFloat( document.getElementById("MonitorCost").value); 
     var subT= (x + y+ z)*1.115;
   var fixed = subT.toFixed(2);
-    window.alert("Thanks for buying with us!: "+ "\n" + "Sub Total"+ (x+y+z) + "\n"+"Total" + fixed + "\nHave a nice day!");
+    window.alert("Thanks for buying with us!: "+ "\n" + "Sub Total: $"+ (x+y+z) + "\n"+"Total: $" + fixed + "\nHave a nice day!");
   }
