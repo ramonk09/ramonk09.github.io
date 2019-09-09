@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <script src="javascript/jsCode.js"></script>
+</head>
+<body>
+        <header>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="Education.html">Education</a></li>
+                    <li><a href="WorkExp.html">Work Experience</a></li>
+                </ul>
+            </header>
+    <h2>Welcom to Computer Center</h2>
+    <div class="subBody">
+        <form action="">
+                <div>
+            <label for="CPU">CPU: </label>
+         
+            <select value="CPU" id="CPUCost" onchange="myFunction()">
+                <option value="0" disabled selected>Select your option</option>
+                <option value="199.99">INTEL CORE i5-9500 $199.99</option>
+                <option value="299.99">INTEL CORE i7-9700 $299.99</option>
+                <option value="399.99">INTEL CORE i9-9900 $399.99</option>
+                </select>
+        </div>
+        
+        <div>
+                <label for="Storage" class="storage">Storage: </label>
+        <select value="Storage" id="StorageCost"onchange="myFunction()">
+                <option value="0" disabled selected>Select your option</option>
+                <option value="100">SSD 250GB $100.00</option>
+                <option value="190">SSD 512GB $190.00</option>
+                <option value="270">SSD 1TB $270.00</option>
+                <option value="350">SSD 2TB $350.00</option>
+                </select>
+            </div>
+        <div><label for="Monitor">Monitor Size: </label>
+        <select value="Monitor" id="MonitorCost"onchange="myFunction()">
+                <option value="0" disabled selected>Select your option</option>
+                <option value="100">15" $100.00</option>
+                <option value="190">20" $190.00</option>
+                <option value="270">32" 1TB $270.00</option
+        ></div>
+        
+                
+        </select>
+                
+        
+        <div>
+        <p id="demo">Sub Total:</p>
+        </div>
+        <div>
+                <p id="demo2">Total:</p>
+        </div>
+            
+            
+        </form>
+
+    </div>
+</body>
+</html>
