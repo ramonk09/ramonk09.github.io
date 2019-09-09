@@ -2,7 +2,7 @@ body{
     align-items: center;
   text-align: center;
     background: gray;
-    object-fit: fill;
+    
 }
 h2{
     text-align: center;
@@ -62,7 +62,7 @@ a:active{
 }
 
 .foto {
-    width:100%;
+    width:100em;
     margin: center;
     
 }
