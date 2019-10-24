@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="textbook.xsl" ?>
+
+<textbooks>
+    <textbook>
+        <title>Discrete Mathematics and its Applications</title>
+        <author>
+            <firstName>Kenneth</firstName>
+            <lastName>Rosen</lastName>
+        </author>
+        <publisher>
+            <publisherName>Mc Graw Hill</publisherName>
+            <publisherWebSite>https://www.mheducation.com/</publisherWebSite>
+        </publisher>
+        <year>2007</year>
+        <covertype type="hardcover">Hardcover</covertype>
+        <edition>7th edition</edition>
+         <ISBN>978-0-07-338309-5</ISBN>
+        <price>$112.24</price>
+    </textbook>
+
+    <textbook>
+        <title>Starting Out with C++ from Control Structures to Objects</title>
+        <author>
+            <firstName>Tony</firstName>
+            <lastName>Gaddis</lastName>
+        </author>
+        <publisher>
+            <publisherName>Pearson</publisherName>
+            <publisherWebSite>www.pearsonhighered.com</publisherWebSite>
+        </publisher>
+        <year>2019</year>
+        <covertype type="hardcover">Hardcover</covertype>
+        <edition>9th edition</edition>
+        <ISBN>978-013449837</ISBN>
+        <price>$136.48</price>
+    </textbook>
+</textbooks>
