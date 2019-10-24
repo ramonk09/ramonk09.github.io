@@ -5,7 +5,7 @@
 <div style="background: black" >
 
       <font size = "20" color = "white"> <p> 
-        <a href="https://ramonk09.github.io/HomeWork" style="text-decoration:none" >Home     </a>  
+        <a href="https://ramonk09.github.io/HomeWork.html" style="text-decoration:none" >Home     </a>  
         <a href="https://ramonk09.github.io/BuyComputer.html" style="text-decoration:none">Computer Center     </a>  
         <a href="https://ramonk09.github.io/Education.html" style="text-decoration:none">Education     </a>  
         <a href="https://ramonk09.github.io/WorkExp.html" style="text-decoration:none">Work Experience     </a>  
