@@ -4,17 +4,19 @@
 <header >
 <div style="background: black" >
 
-       <p font-size="25"> 
+      <font size = "20" color = "white"> <p> 
         <a href="https://ramonk09.github.io/HomeWork" style="text-decoration:none" >Home     </a>  
         <a href="https://ramonk09.github.io/BuyComputer.html" style="text-decoration:none">Computer Center     </a>  
         <a href="https://ramonk09.github.io/Education.html" style="text-decoration:none">Education     </a>  
         <a href="https://ramonk09.github.io/WorkExp.html" style="text-decoration:none">Work Experience     </a>  
         <a href="https://ramonk09.github.io/FlashPage.html" style="text-decoration:none">Flash Page     </a>  
         </p>
+        </font>
        
 </div>
 </header>
 <body style="background: gray">
+<center>
 <h1>List of University books</h1>
 
     <xsl:for-each select="textbooks/textbook">
@@ -65,6 +67,13 @@
             
         </div>
     </xsl:for-each>
+
+     <footer style="background: black" >
+               
+                <p style = "color:white">Ramon E. Mercado - PUPR 2019</p>
+                
+         </footer>
+         </center>
 </body>
 
 </html>
