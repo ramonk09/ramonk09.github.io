@@ -1,0 +1,129 @@
+.menu {
+    width: 100%;
+    background: black;
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.menu li {
+    display: inline-block;
+   
+}
+
+ .infoHijo {
+    list-style: none;
+}
+
+a {
+    color: aliceblue;
+}
+
+.menu li a {
+    padding: 10px 20px;
+    display: inline-block;
+    
+}
+
+body {
+    background: gray;
+    align-items: center;
+    text-align: center;
+}
+a:hover{
+    background: rgb(61, 61, 61);
+}
+a:active{
+    font-size: 16px;
+}
+
+.foto {
+    width:100%;
+    margin: center;
+    
+}
+
+img {
+    width: 20em;
+    margin:auto;
+    display: block;
+    margin-bottom: 1%;
+    
+
+}
+
+.info {
+    width:100%;
+    background: black;
+    color: white;
+    
+   
+}
+
+.infoHijo{
+   width: 20em;
+   position: relative;
+   left:38%;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+.BACayey{
+    width: 100%;
+    background:  black;
+    color: aliceblue;
+    display: block;
+}
+section p {
+    font-size: 20px;
+
+}
+
+.BACayey h2 p {
+
+    margin: 200px;
+    padding: auto;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+   
+}
+
+.BSPupr{
+    width: 100%;
+    background:  black;
+    color: aliceblue;
+    display: block;
+}
+.BSPupr h2 p .FotoPUPR{
+
+    margin: 200px;
+    padding: auto;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    
+}
+.workExp{
+    width: 100%;
+    background:  black;
+    color: aliceblue;
+    display: block;
+    border: coral;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table td {
+    border: 1px solid black;
+}

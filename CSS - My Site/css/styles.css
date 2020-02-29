@@ -1,0 +1,105 @@
+body{
+
+margin:0;
+text-align: center;
+
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-family: 'Great Vibes', sans-serif;
+  font-size: 5.625rem;
+  
+
+}
+
+h1, h2 {
+color:#66BFBF;
+}
+
+h3, a{
+  color: #11999E;
+}
+
+
+
+/******Class Selectors******/
+.jobDesc {
+  font-size: 2.5rem;
+
+  font-weight: normal;
+}
+.top-cloud{
+  position: relative;
+  left : 215px;
+  bottom: 0px;
+  width: 180px;
+
+}
+.bottom-cloud {
+  position: relative;
+  right: 215px;
+  top: 18px;
+
+  width: 180px;
+}
+.topContainer {
+  background-color: #effcef;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.middleContainer {
+
+}
+
+.buttomContainer {
+
+}
+
+.footer-link {
+  margin: 0 5px;
+}
+/******Id selectors*******/
+
+#fotoYo  {
+  border-radius: 90%;
+}
+
+#CSharp{
+  width: 20%;
+}
+
+
+#SQL{
+  width: 20%;
+  margin-bottom: 0;
+}
+
+/******Practica*******/
+/*.red{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left:200px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  left:100px;
+
+}
+
+.yellow{
+  background-color:yellow;
+  height: 100px;
+  width: 100px;
+
+}
+*/
