@@ -23,9 +23,7 @@ h3, a{
 
 
 /******Class Selectors******/
-.skill, .skillDesc {
-  text-align: left;
-}
+
 .jobDesc {
   font-size: 2.5rem;
   font-weight: normal;
@@ -33,7 +31,7 @@ h3, a{
 .top-cloud{
   position: relative;
   left : 215px;
-  bottom: 0px;
+  bottom: 0;
   width: 180px;
 
 }
@@ -48,16 +46,19 @@ h3, a{
   position: relative;
   padding-top: 100px;
 }
-/
+
 .skill-row {
-  width: 50px;
-  margin: 100px auto 100px auto;
+  width: 50%;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 /*
 .middleContainer {
 
 }
+
 
 .buttomContainer {
 
@@ -73,12 +74,12 @@ h3, a{
 }
 
 #CSharp{
-  width: 20%;
+  width: 25%;
 }
 
 
 #SQL{
-  width: 20%;
+  width: 25%;
   margin-bottom: 0;
 }
 
