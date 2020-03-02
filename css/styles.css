@@ -75,12 +75,14 @@ h3, a{
 
 #CSharp{
   width: 25%;
+  float: left;
 }
 
 
 #SQL{
   width: 25%;
   margin-bottom: 0;
+  float: left;
 }
 
 /******Practica*******/
