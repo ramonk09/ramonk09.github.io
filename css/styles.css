@@ -20,7 +20,24 @@ h3, a{
   color: #11999E;
 }
 
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.3rem;
 
+}
+
+
+hr{
+  /*background-color: #ffffff;*/
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 8px;
+  /*height: 2px;*/
+  width: 5%;
+
+}
 
 /******Class Selectors******/
 
@@ -34,6 +51,13 @@ h3, a{
   bottom: 0;
   width: 180px;
 
+}
+
+.btn {
+  color: #ffffff;
+  border-style: inset;
+  background-color: #2a7886;
+line-height: 2;
 }
 .bottom-cloud {
   position: relative;
@@ -52,18 +76,25 @@ h3, a{
   margin: 10px auto 10px auto;
   text-align: left;
   line-height: 2;
+  overflow: auto;
 }
 
-/*
-.middleContainer {
+.bottom-container {
+  padding: 40px;
+  background-color: #66BFBF;
+}
 
+.bottomText {
+  color: #EAF6F6;
 }
 
 
-.buttomContainer {
 
-}
-*/
+
+
+
+
+
 .footer-link {
   margin: 0 5px;
 }
@@ -76,13 +107,17 @@ h3, a{
 #CSharp{
   width: 25%;
   float: left;
+  margin-right: 30px;
+
+
 }
 
 
 #SQL{
   width: 25%;
-  margin-bottom: 0;
-  float: left;
+  float: right;
+  margin-left: 30px;
+
 }
 
 /******Practica*******/
