@@ -120,8 +120,8 @@ margin: 40px auto 60px;
 /******Id selectors*******/
 
 #fotoYo  {
-  width: 20px;
-  border-radius: 100%;
+  width: 200px;
+  border-radius: 10%;
   margin: auto;
 
 }
