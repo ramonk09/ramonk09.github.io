@@ -1,0 +1,199 @@
+body{
+    align-items: center;
+    text-align: center;
+    background: rgb(247, 247, 247);
+
+}
+
+
+img {
+  padding-top: 50px;
+  width: 75%;
+}
+
+
+
+h1{
+
+  font-size: 80px;
+}
+
+input[type=text] {
+  width: 800px;
+  height: 12%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input[type=password] {
+  width: 800px;
+  height: 12%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select{
+  width: 100px;
+  height: 12%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.top-container{
+margin-top: 300px;
+}
+
+.topContainer-home {
+   padding-top: 2%;
+
+ }
+
+
+label {
+  text-align: left;
+  font-size: 26px;
+}
+table {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+table{
+  margin: auto;
+}
+
+.nav div {
+height: 4px;
+background-color: black;
+margin: 5px 0;
+border-radius: 25px;
+}
+
+.nav {
+  width: 30px;
+  display: block;
+  margin: 1em 0 0 1em;
+  }
+
+  .one {
+    width: 30px;
+
+  }
+
+  .two {
+    width: 22px;
+  }
+
+  .three {
+    width: 26px;
+  }
+
+.nav:hover div {
+  width: 30px;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Trebuchet MS;
+	font-size:26px;
+	font-weight:bold;
+	padding:15px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container {
+  margin-top: 90%;
+}
+
+.register-img {
+  width: 55%;
+  margin: 20% auto 10%;
+}
+
+.home-img {
+  width: 55%;
+  margin: 10% auto 10%;
+}
+.selectYourDoc .yourDocTable{
+  margin: 2% auto;
+}
+#doctor {
+  width: 600px;
+  height: 12%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.myButton2 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin-left: 80px;
+}
+
+.myButton3 {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin-left: 96px;
+}
+
+
+.p1 {
+  margin-left: 80px;
+}
+
+.leftaling {
+  text-align: left;
+}
