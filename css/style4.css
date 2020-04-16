@@ -202,3 +202,7 @@ option {
 .leftaling {
   text-align: left;
 }
+
+#loginsingup {
+  margin-top: 30px;
+}
