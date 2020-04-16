@@ -39,13 +39,13 @@ input[type=password] {
 
 select{
   width: 100px;
-  height: 12%;
+  height: 30px;
   margin: 0 30px;
-
-  display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+
 .top-container{
 margin-top: 300px;
 }
