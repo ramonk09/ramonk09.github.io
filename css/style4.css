@@ -37,7 +37,9 @@ input[type=password] {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-
+.docHomeHr{
+  background: black;
+}
 select{
   width: 100px;
   height: 30px;
@@ -46,7 +48,13 @@ select{
   border-radius: 4px;
 }
 
-
+.CalendarApp{
+  padding: 10px;
+  background:#deecff;
+}
+.docHomeH3{
+  margin-top:0;
+}
 .top-container{
 margin-top: 300px;
 }
@@ -54,6 +62,10 @@ margin-top: 300px;
 .topContainer-home {
    padding-top: 2%;
 
+ }
+
+ .dateDoc {
+   font-size: 30px;
  }
 
 
