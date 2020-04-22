@@ -93,7 +93,9 @@ margin-top: 300px;
   color: white;
 }
 
-
+a{
+  font-weight: bold;
+}
 th {
   padding: 5px px;
 }
