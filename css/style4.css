@@ -68,6 +68,35 @@ margin-top: 300px;
    font-size: 30px;
  }
 
+.tableSch td, .tableSch th  {
+  border: 1px solid white;
+  padding: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.tableSch {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+.tableSch tr:nth-child(even){background-color: #f2f2f2;}
+
+.tableSch tr:hover {background-color: #ddd;}
+
+.tableSch th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+
+
+th {
+  padding: 5px px;
+}
 
 label {
   text-align: left;
@@ -91,6 +120,11 @@ margin: 5px 0;
 border-radius: 25px;
 }
 
+.tdTime {
+  text-align: center;
+  width: 300px;
+}
+
 .nav {
   width: 30px;
   display: block;
@@ -101,7 +135,9 @@ border-radius: 25px;
     width: 30px;
 
   }
-
+.AddPadd {
+  padding: 20px 50px;
+}
   .two {
     width: 22px;
   }
