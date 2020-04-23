@@ -6,12 +6,25 @@ body{
 }
 
 
+#labelFor{
+  font-size: 30px;
+}
+.radioB{
+  background-color: black;
+  color: white;
+
+  padding: 35px;
+  margin-bottom: 35px;
+}
 img {
   padding-top: 50px;
   width: 75%;
   margin: 0 auto;
 }
 
+.middleContiner-forg{
+  padding-top: 60px;
+}
 
 
 h1{
