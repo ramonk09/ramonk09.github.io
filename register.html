@@ -37,7 +37,25 @@
             <option value="Female">Female</option>
             <option value="Other">Other</option>
           </select></td>
-      </tr>
+        </tr>
+        <tr>
+          <td>
+            <label for="">Doctor</label>
+            <input type="radio" name = "typeU" onclick ="myFunctionEnb()"  id="iamDoctor"><br>
+          </td>
+          <td>
+            <label for="">Patient</label>
+            <input type="radio" name = "typeU" onclick ="myFunctionDis()"  id="Patient"><br>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="">Specialty: </label></td>
+          <td><input type="text" name="" placeholder="Last Name" id = "docInfo" required></td>
+        </tr>
+        <tr>
+          <td><label for="">License number: </label></td>
+          <td><input type="text" name="" placeholder="Last Name" id = "docInfo2" required></td>
+        </tr>
     </table>
 <button type="submit" class="myButton"  name="button">Submit</button>
 
@@ -45,6 +63,16 @@
   <div class="bottom-container">
   <p class = "bottomText">Skyligth Soft ® 2020 </p>
   </div>
+  <script>
+function myFunctionDis() {
+  document.getElementById("docInfo").disabled = true;
+  document.getElementById("docInfo2").disabled = true;
+}
+function myFunctionEnb() {
+  document.getElementById("docInfo").disabled = false;
+  document.getElementById("docInfo2").disabled = false;
+}
+</script>
 </body>
 
 </html>
