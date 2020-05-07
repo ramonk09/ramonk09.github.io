@@ -21,28 +21,7 @@
     <img src="images\core.PNG" alt="CoreSoft">
   </div>
   <div class="middleContiner-home">
-    <div class="tod-middle-home">
-      <h3 class="leftaling">Add your Doctor:</h3>
-      <hr>
-      <table class="selectYourDoc">
-        <tr>
-          <td><label for="">Select your Doctor: </label></td>
-          <td><select id="doctor" placeholder="Doctor" required>
-              <option value="None">none</option>
-              <option value="Dr. Carlos Carro DMD">Dr. Carlos Carro DMD</option>
-              <option value="Dr.  Jose Ruíz DMD">Dr. Jose Ruíz DMD</option>
-              <option value="Dra. Elba Hernandez DMD">Dr. Elba Hernandez DMD</option>
-              <option value="Dra. Camille Irizarry DMD">Dr. Camille Irizarry DMD</option>
-              <option value="Dr. Carlos Melendez DMD">Dr. Carlos Melendez DMD</option>
-              <option value="Dra. Iris Gonzalez DMD">Dr. Iris Gonzalez DMD</option>
-          </td>
-          <td><button type="submit" class="myButton" name="button" review>Add</button></td>
-        </tr>
-      </table>
-      <hr>
-    </div>
-
-    <div class="middle-middle-home">
+      <div class="middle-middle-home">
       <h3 class="leftaling">Your Doctors:</h3>
       <hr>
       <table class="yourDocTable">
@@ -50,6 +29,83 @@
           <td>
             <hr>
             <h3>Dr. Carlos Jose Carro DMD</h3><br>
+            <h3>Dentist San Juan, PR</h4>
+            <hr>
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>
+                  <p class="p1">Make an appointment:</p>
+                  <form action="/action_page.php">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                    <input type="time" id="appt" name="appt"
+                    min="09:00" max="18:00" step="900" required>
+                    <button type="submit" class="myButton3" name="button" review>Add</button>
+                  </form>
+
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="p1">Remove Doctor:</p>
+                  <button type="submit" class="myButton2" name="button" review>Remove</button>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <hr>
+    </div>
+    <div class="middleContiner-home">
+        <div class="middle-middle-home">
+
+        <hr>
+        <table class="yourDocTable">
+          <tr>
+            <td>
+              <hr>
+              <h3>Dr. Victor Doom DMD</h3><br>
+              <h3>Dentist San Juan, PR</h4>
+              <hr>
+            </td>
+            <td>
+              <table>
+                <tr>
+                  <td>
+                    <p class="p1">Make an appointment:</p>
+                    <form action="/action_page.php">
+                      <label for="date">Date:</label>
+                      <input type="date" id="date" name="date">
+                      <input type="time" id="appt" name="appt"
+                      min="09:00" max="18:00" step="900" required>
+                      <button type="submit" class="myButton3" name="button" review>Add</button>
+                    </form>
+
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="p1">Remove Doctor:</p>
+                    <button type="submit" class="myButton2" name="button" review>Remove</button>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <hr>
+      </div>
+      <div class="middle-middle-home">
+
+      <hr>
+      <table class="yourDocTable">
+        <tr>
+          <td>
+            <hr>
+            <h3>Dr. Stephen Strange DMD</h3><br>
             <h3>Dentist San Juan, PR</h4>
             <hr>
           </td>

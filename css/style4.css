@@ -202,7 +202,10 @@ border-radius: 25px;
 .bottom-container {
   margin-top: 600px;
 }
-
+.middleContiner-home2 {
+  margin: auto;
+  
+}
 .register-img {
   width: 55%;
   margin: 20% auto 10%;
